@@ -3,7 +3,8 @@
 from collections import Counter
 from pathlib import Path
 
-file_name = "bigram_ciphertext.txt"
+# file_name = "bigram_ciphertext.txt"
+file_name = "ciphertext2.txt"
 print(f'Bigram analysis of file \n"{file_name}" :')
 
 file_path = Path(__file__).parent / file_name

@@ -4,8 +4,8 @@ from pathlib import Path
 
 import numpy as np
 
-file_name = "ciphertext1.txt"
-key_shift = 0
+file_name = "ciphertext2.txt"
+key_shift = -154
 
 file_path = Path(__file__).parent / file_name
 with open(file_path, "rb") as f_in:
